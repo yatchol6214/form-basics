@@ -16,14 +16,16 @@
         <hr>
         <form action="http://www.w3schools.com/action_page.php" method="get">
 
-            Name:<input type="text" name="name"><br> 
-            Last name:<input type="text" name="last_name"><br> 
-            E-mail:<input type="email" name="email"><br>
-             ID:<input type="text" name="id"><br> 
+            Name:<input type="text" name="name" placeholder="name" required>
+            Last name:<input type="text" name="last_name" placeholder="last name " required><br> 
+            E-mail:<input type="email" name="email" placeholder="Email" required><br>
+             ID:<input type="text" name="id" placeholder="ID" required><br> 
             <!--add your own inputs below-->
             <h3>Gender:</h3>
             <input type="radio" name="sex" value="male" > Male
             <input type="radio" name="sex" value="female" > Female<br>
+            
+            <h3>Are you currently a SEP student?</h3>
             <input type="checkbox" name="sep" value="yes"> I'm a SEP student 
              <input type="checkbox" name="sep" value="no"> I'm not a SEP student
              <br>
